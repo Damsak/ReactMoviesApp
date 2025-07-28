@@ -6,8 +6,6 @@ function MovieCard({movie}) {
     }
 
     return <div className="movie-card">
-
-        <h1>Test</h1>
             <div className="movie-poster">
                 <img src={movie.url} alt={movie.title} />
                 <div className="movie-overlay"> 
